@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: luissf/registro-atividades:latest
+          image: luissf/registro-atividades-backend:latest
           ports:
             - containerPort: 8001
           env:
